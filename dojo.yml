@@ -1,29 +1,15 @@
-id: example-import
+id: mohan-lal
 
-name: Example Import Dojo
+name: The MohanLal DJ
 
-type: example
+type: course
+visibility:
+  start: "2025-08-14T00:00:00-07:00"
 
 modules:
-
   - import:
-      dojo: example
-      module: hello
-
-  - id: planet
-    name: Planet
-    description: A couple planets.
-
-    challenges:
-
-      - import:
-          dojo: example
-          module: world
-          challenge: earth
-
-      - import:
-          dojo: example
-          module: world
-          challenge: mars
-        name: Martian Planet
-        description: This is a martian planet... mars.
+      dojo: intro-to-cybersecurity
+      module: access-control
+    visibility:
+      start: "2025-08-14T12:00:00-07:00"
+      stop: "2025-10-19T23:59:59-07:00"
